@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <form method="XXX" action="XXX">
+        <h3>お問い合わせフォーム</h3>
+        <div class="box">
+            <p>名前</p>
+            <input type="text" size="40" name="XXX">
+            <br>
+            <p>メールアドレス</p>
+            <input type="text" size="40" name="XXX">
+            <br>
+            <p>年齢</p>
+            <select name="XXX">
+                <option>選択してください</option>
+                <script>
+                for(var i =18; i <= 65; i++){
+                document.write("<option>");
+                document.write(i+"歳");
+                document.write("</option>");
+                }
+                </script>
+            </select>
+            <p>コメント</p>
+            <textarea rows="4" cols="40" name="XXX"></textarea>
+            <br>
+            <div class="button">
+            <input type="submit" value="送信する">
+            </div>
+        </div>
+
+    </form>
+    
+</body>
+
+</html>
